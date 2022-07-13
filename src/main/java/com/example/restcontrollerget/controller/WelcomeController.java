@@ -22,7 +22,7 @@ public class WelcomeController {
         this.name=inputName;
        int nameLenght=name.length();
        String i=String.valueOf(nameLenght);
-        return "der name: " + name + "hat eine länge von: "+ i ;
+        return "der name: " + name + "hat eine länge von: "+ i;
 
     }
 }
